@@ -1,0 +1,102 @@
+/*Importing Poppins,Monsterrat,Arvo,GreatVibes,Lobster,Pacifio from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Montserrat&family=Arvo&family=Great+Vibes&family=Lobster&family=Pacifico&display=swap');
+
+/* Apply fonts to elements */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* overflow-x:hidden; */
+    box-sizing: border-box !important;
+}
+/*Styling the header part*/
+.navbar{
+    min-height: 15vh;
+}
+.navbar-brand{
+    font-family:Arvo;
+    color:purple !important;
+    font-weight:bold;
+}
+.nav-link{
+    color:rgb(99, 36, 99);
+}
+.nav-link:hover{
+    font-weight: bold;
+}
+/*Styling the main part*/
+body{
+    min-height:100vh;
+}
+.main{
+    flex:1;
+    min-height:80vh;
+    width:80%;
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center;
+}
+/*Styling the footer part*/
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
+.bg-light{
+    background-color: lightgray !important;
+}
+.btn-primary {
+    background-color: purple !important;
+    border-color: purple !important;
+}
+
+.btn-primary:hover {
+    background-color: #6a0dad !important;
+    border-color: #6a0dad !important;
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.25rem rgba(138, 40, 168, 0.5) !important;
+}
+
+.card{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5) !important;
+    transition: transform 0.3s !important;
+}
+
+.card:hover {
+    transform: translateY(-10px) !important;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.5) !important;
+}
+
+.gradient-text {
+    background: linear-gradient(45deg, #6c2cbd, #a74dc1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+h3{
+    color:#430A5D;
+    font-weight: 600;
+    font-family: Montserrat;
+}
+
+/* styles.css */
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+.dropdown-menu {
+    background-color: transparent;
+    border: none;
+}
+.dropdown-item:hover {
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    color:purple;
+}

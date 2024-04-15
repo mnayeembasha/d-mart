@@ -100,3 +100,29 @@ h3{
     /* background-color: rgba(0, 0, 0, 0.1); */
     color:purple;
 }
+.card img{
+    width:100%;
+    height:300px;
+}
+.card{
+    margin:0 0.3rem;
+}
+.custom-center {
+    justify-content: center !important;
+}
+
+@media (max-width: 992px) {
+    .custom-center {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .navbar-nav {
+        text-align: center;
+        width: 100%;
+    }
+    .navbar-nav .dropdown-menu {
+        width: 100%;
+        text-align: center;
+    }
+}
